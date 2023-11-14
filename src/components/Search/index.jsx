@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { getAllSpecialties } from '../../api/api'
 import IconComponent from '../IconComponent';
+import Cargando from '../Cargando'
 
 
 export default function Search() {
@@ -50,8 +51,7 @@ export default function Search() {
           </div>
         ) : (
           <div className='div-sin-disponibilidad'>
-            <p>Noy hay datos disponibles<br />
-              Ingresa otro valor </p>
+            <Cargando/>
           </div>
         )}
       </section>
