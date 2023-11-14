@@ -1,0 +1,126 @@
+.main-search{
+  display: inline-block;
+  margin-top: 4rem;
+}
+.logo{
+  width: 5rem;
+  height: 6rem;
+}
+
+.img-lupa{
+  filter: invert(1);
+}
+
+.search{
+  margin-top: -.8rem;
+  min-width: 100%;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+@media screen and (min-width: 768px) {
+  .search-bar{
+    width: 43rem; 
+  }  
+}
+
+.search-bar {
+  height: 2.3rem;
+  margin-top: 2rem;
+  background: rgba(243, 236, 236, 0.849);
+  display: flex;
+  border-radius: 3rem;
+  padding: 0.7rem 1rem;
+  backdrop-filter: blur(4px) saturate(100%);
+  align-items: center;
+}
+
+.search-bar input{
+  height: 1rem;
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: #4a7978;
+}
+
+::placeholder{
+  color: #4a7978;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 50%;
+  min-width: 3.3rem;
+  min-height: 3.3rem;
+  background: #4a7978;
+  cursor: pointer;
+  margin-right: -.5rem;
+}
+
+.search-bar button img{
+  width: 2rem;
+}
+
+.div-sin-disponibilidad{
+  margin-top: 2rem;
+  color: #4a7978;
+  font-weight: bold;
+}
+
+
+/*Inicio del listado de especialidades*/
+.section-specialties{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.main-specialties{
+  min-width: 60%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  text-decoration: none;
+  justify-items: center;
+  margin-top: 1rem;
+
+
+
+}
+.specialties-items{
+  text-decoration: none;
+
+}
+
+.specialties-items div{
+  background-color: #a6cecd;
+  color: #4A7978;
+  border-radius: 2rem;
+  min-width: 12rem;
+  min-height: 4rem;
+  margin-bottom: 1rem;
+  border: solid 1px #4A7978;
+
+}
+
+.ico-specialties{
+  min-width: 4.5rem;
+  min-height: 3.5rem;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+.specialties-items div:hover{
+  border: solid 1px white;
+  transition:all .5s ease-in-out;
+  filter: contrast(1.3) invert(2%);
+  cursor: pointer;
+}
+/*Fin del listado de especialidades*/

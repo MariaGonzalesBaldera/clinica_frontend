@@ -1,0 +1,88 @@
+.div-main-description{
+  margin-top: 1rem;
+  display: grid;
+  color: #4a7978;
+}
+
+.section-description{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
+  background-color: #e8f4f3;
+  gap: 1rem;
+  min-height: 80vh;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.img-perfil{
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 6rem ;
+  border: solid 1rem #e8f4f3;
+}
+
+.div-description-primero ,.div-description-segundo, .div-description-tercero{
+  padding: 2rem;
+}
+
+.div-description-primero{
+  text-align: justify;
+  line-height: 1.8rem;
+}
+
+.div-description-segundo{
+  background-color: #959595;
+  color: #e8f4f3;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+hr{
+  margin-top: -1rem;
+  max-width: 12rem;
+}
+
+.div-speciality{
+  font-weight: bold;
+}
+
+.btn-description-reservar {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  border: solid 1px blanchedalmond;
+  display: inline-flex;
+  align-items: center;
+  min-width: 8rem;
+  min-height: 3rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.btn-description-reservar:hover {
+  color: #959595;
+  background-color: #e8f4f3;
+  cursor: pointer;
+}
+
+.div-description-tercero{
+  text-align: start;
+}
+
+ul {
+  line-height: 1.3rem;
+  padding-left: .5rem;
+  margin-bottom: .5rem;
+  margin-top: .1rem;
+  list-style: none; 
+}
+
+li {
+  margin: .1rem 0;
+  line-height: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .div-description-segundo{
+    border-radius: 0rem;
+  }
+}
