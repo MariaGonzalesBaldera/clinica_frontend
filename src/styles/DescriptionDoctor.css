@@ -3,6 +3,9 @@
   display: grid;
   color: #4a7978;
 }
+.div-description-second> div{
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .section-description{
   display: grid;
@@ -37,13 +40,15 @@
   margin: 1rem;
 }
 
-hr{
+hr{ 
+  color: #e8f4f3;
   margin-top: -1rem;
   max-width: 12rem;
 }
 
 .div-speciality{
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .btn-description-reservar {
@@ -67,6 +72,9 @@ hr{
 .div-description-tercero{
   text-align: start;
 }
+.div-description-tercero > ul, .div-years-e{
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 ul {
   line-height: 1.3rem;
@@ -74,10 +82,13 @@ ul {
   margin-bottom: .5rem;
   margin-top: .1rem;
   list-style: none; 
+  display: grid;
+  justify-items: left;
 }
 
 li {
   margin: .1rem 0;
+  display: list-item;
   line-height: 1rem;
 }
 

@@ -1,15 +1,9 @@
 :root {
   color: beige;
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: 0.5px;
+  font-family: "Acme", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Righteous", sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-
-  img , picture , video , iframe , figure{
-    max-width: 100%;
-    width: 100%;
-    display: block;
-  }
 
   a {
     display: block;
