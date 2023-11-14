@@ -14,3 +14,6 @@ const handleApiError = async (apiCall) => {
   }
 };
 export const getAllSpecialties = async () => handleApiError(() => Api.get("specialty/"));
+export const getDoctorSpecialty = async (specialty, mode) =>  handleApiError(() => Api.get(`doctor/?specialty=${specialty}&mode=${mode}`));
+
+export const getDetailDoctor = async (id) => handleApiError(() => Api.get(`detail/${id}`));

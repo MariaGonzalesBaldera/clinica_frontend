@@ -6,8 +6,9 @@ export default function Router(){
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Home/>} />
-                <Route path='/select/:specialties' element={<SpecialtiesSelect/>} />
+                <Route path='/select/:specialty/' element={<SpecialtiesSelect/>} />
                 <Route path='/description/:id' element={<DescriptionDoctor/>} />
+                <Route path='/description/:specialty/:id' element={<DescriptionDoctor/>} />
             </Routes>
         </BrowserRouter>
     )
